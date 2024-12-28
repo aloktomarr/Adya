@@ -32,9 +32,20 @@ export default function MultiActionAreaCard() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button onClick={() => setCount((count) => count + 1)} size="small" color="primary">
-          Paws
-        </Button>
+        {/* <Button  size="small" color="primary">
+          
+        </Button> */}
+        <button onClick={() => setCount((count) => count + 1)} class="bone">
+    <div class="c1"></div>
+    <div class="c2"></div>
+    <div class="c3"></div>
+    <div class="c4"></div>
+    <div class="b1">
+      <div class="b2">
+      Paws
+      </div>
+    </div>
+</button>
         <Button >My Smiles {count}</Button>
       </CardActions>
       
